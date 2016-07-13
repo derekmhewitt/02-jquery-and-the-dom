@@ -1,9 +1,11 @@
 .pull-left {
   float: left;
+  margin-right: 1em;
 }
 
 .pull-right {
   float: right;
+  margin-left: 1em;
 }
 
 .clearfix::after {
@@ -32,7 +34,7 @@
     margin: .2em .2em;
   }
 
-  #filters li {
+  #filters li { 
     width: 20em;
     display: inline;
   }
